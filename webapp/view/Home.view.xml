@@ -1,0 +1,32 @@
+<mvc:View controllerName="sap.ui5.dialerzDialer.controller.Home" xmlns:l="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}" class="clsMainPage sapUiSizeCozy" showHeader="false">
+				<content>
+					<VBox class="clsContainer" justifyContent="Center" alignItems="Center">
+						<Text class="clsText" text="{/Number}" />
+						<l:Grid containerQuery="true" defaultSpan="XL2 L4 M4 S4">
+							<Button class="clsBtn" press="onNumberChange" text="1"/>
+							<Button class="clsBtn" press="onNumberChange" text="2"/>
+							<Button class="clsBtn" press="onNumberChange" text="3"/>
+						</l:Grid>
+						<l:Grid containerQuery="true" defaultSpan="XL2 L4 M4 S4">
+							<Button class="clsBtn" press="onNumberChange" text="4"/>
+							<Button class="clsBtn" press="onNumberChange" text="5"/>
+							<Button class="clsBtn" press="onNumberChange" text="6"/>
+						</l:Grid>
+						<l:Grid containerQuery="true" defaultSpan="XL2 L4 M4 S4">
+							<Button class="clsBtn" press="onNumberChange" text="7"/>
+							<Button class="clsBtn" press="onNumberChange" text="8"/>
+							<Button class="clsBtn" press="onNumberChange" text="9"/>
+						</l:Grid>
+						<HBox >
+							<Button class="clsBtn" press="onNumberChange" text="0"/>
+						</HBox>
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,50 @@
+/* Universal styles */
+
+.sapMFocusable, input {
+    outline: none !important;
+}
+
+
+/* Page specific styles */
+
+.clsMainPage .clsContainer {
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.clsMainPage .clsText{
+	width: 70%;
+	font-size: 2rem;
+	display: contents;
+}
+
+.clsMainPage .clsInput input {
+    border: none;
+    color: transparent;
+    text-shadow: 0 0 0 gray;
+    text-align: end;
+}
+
+.clsMainPage .clsBtn {
+    /*padding: 0rem 0.3rem 0rem 0.3rem;*/
+    /*margin: 0.5rem;*/
+}
+
+.clsMainPage .clsBtn>span {
+    border-radius: 50%;
+    padding: 0.5rem;
+    display: inline-table;
+}
+
+.clsMainPage .clsBtn .sapMBtnContent {
+    line-height: 4.375rem;
+    width: 4rem;
+    font-size: 1.775rem;
+}
+
+.clsMainPage .sapMBtn {
+    height: 7rem;
+    /*width: 25%;*/
+}
