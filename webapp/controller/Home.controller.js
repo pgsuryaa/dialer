@@ -10,7 +10,7 @@ sap.ui.define([
 				Number: ""
 			});
 			this.getView().setModel(this.oModel);
-			this.oModel.refresh();
+			this.oModel.refresh(); 
 		},
 		onNumberChange: function(oEvent) {
 			this.oModel.getData().Number += oEvent.getSource().getText();
